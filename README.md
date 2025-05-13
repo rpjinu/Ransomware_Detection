@@ -75,13 +75,15 @@ These features are used to classify files as **Benign (1)** or **Malicious (0)**
 
 ## 📈 Results
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|-------|----------|-----------|--------|----------|
-| RandomForest | **xx%** | xx% | xx% | xx% |
-| XGBoost | **xx%** | xx% | xx% | xx% |
-| LogisticRegression | xx% | xx% | xx% | xx% |
+               precision    recall  f1-score   support
 
-*(Replace `xx%` with your actual results)*
+           0       1.00      1.00      1.00     10678
+           1       1.00      0.99      0.99      8068
+
+    accuracy                           1.00     18746
+   macro avg       1.00      1.00      1.00     18746
+weighted avg       1.00      1.00      1.00     18746
+
 
 ---
 
